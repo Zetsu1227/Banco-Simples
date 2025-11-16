@@ -3,15 +3,23 @@ Programa de gerenciamento de dados e contas -- POO
 
 1) Conta
 
-	+ O usu·rio È capaz de manipular os valores de sua conta por meio de saques e depÛsitos.
-	+ Essas aÁıes s„o guardados no histÛrico da conta.
-	+ … possÌvel serializar uma conta, isto È, guardar os seus dados em uma string -> ATUALIZAR: ESCREVER EM .txt
-	+ E h· o processo inverso, de criar uma conta a partir dessa string -> ATUALIZAR: LER .txt 
+	+ O usu√°rio √© capaz de manipular os valores de sua conta por meio de saques e dep√≥sitos.
+	+ Essas a√ß√µes s√£o guardados no hist√≥rico da conta.
+	+ √â poss√≠vel serializar uma conta, isto √©, guardar os seus dados em uma string.
+	+ E h√° o processo inverso, de criar uma conta a partir dessa string. 
 
-	->InformaÁıes de uma conta:
+	->Informa√ß√µes de uma conta:
 		a) Numero 
 		b) Titular
 		c) Saldo
-		d) HistÛrico
+		d) Hist√≥rico
+
 -----------------------------------------------------
 
+2) Banco
+
+   + O cliente pode criar uma conta nova, ver os titulares das contas do banco.
+   + Al√©m disso, √© poss√≠vel salvar os dados do banco atual e carregar os de um salvo.
+   + Ao buscar determinada conta com seu n√∫mero, o usu√°rio √© capaz de gerenciar sua conta.
+
+-----------------------------------------------------
