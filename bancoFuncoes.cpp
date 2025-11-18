@@ -25,7 +25,7 @@ Conta* Banco::buscarConta(int numero)
 	}
 
 	//se não achar
-	std::cout << "Conta nao encontrada!" << std::endl;
+	std::cout << "\nConta nao encontrada!" << std::endl;
 	return nullptr;
 }
 

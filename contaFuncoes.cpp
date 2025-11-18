@@ -33,7 +33,10 @@ bool Conta::sacar(double valor)
 		return true;
 	}
 
+
 	//else -> não há saldo suficiente para sacar o valor escolhido
+	
+	std::cout << "\nSaldo Insuficiente!\n";
 	return false;
 }
 
