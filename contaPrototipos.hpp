@@ -1,6 +1,9 @@
 #pragma once
 #include <string>
 #include <vector>
+#include <iostream>
+#include <fstream>
+#include <sstream>
 
 //Conta -> informações essenciais da conta do aplicativo/banco
 //      -> funções principais de organização e gestão desses dados

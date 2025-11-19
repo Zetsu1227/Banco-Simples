@@ -1,6 +1,4 @@
 #include "contaPrototipos.hpp"
-#include <iostream>
-#include <sstream>
 
 //Construtor -> ao ser chamado é realizado as ações:
 Conta::Conta(int numeroConta, std::string titularConta, double saldoConta)

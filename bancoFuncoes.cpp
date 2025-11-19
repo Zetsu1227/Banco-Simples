@@ -1,8 +1,5 @@
 #include "bancoPrototipos.hpp"
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <sstream>
+
 
 //Cria uma conta e coloca no banco de dados
 void Banco::criarConta(int numero, std::string titular)

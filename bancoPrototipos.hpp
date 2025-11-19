@@ -1,5 +1,3 @@
-#pragma once
-#include <vector>
 #include "contaPrototipos.hpp"
 
 class Banco 
