@@ -35,6 +35,7 @@ Programa de gerenciamento de dados e contas -- POO
    		b) Sacar
    		c) Ver saldo
    		d) Mostrar extrato
-   		e) Listar contas do Banco  ( >:D )
+   		e) Listar contas do Banco
+   		f) Voltar ao menu inicial
 
 -----------------------------------------------------
