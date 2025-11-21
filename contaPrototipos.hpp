@@ -34,8 +34,5 @@ public:
     
     //Para evitar dúvidas -> const(s) usados apenas para evitar erros lógicos acidentais ao mexer com os códigos
     
-    std::string serializar() const;  // transforma todos os dados de conta em uma string
-    static Conta desserializar(const std::string& linha); // transforma uma string que contem os dados da conta em uma Conta
-
 };
 

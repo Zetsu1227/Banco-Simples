@@ -1,7 +1,7 @@
 #include "organizePrototipos.hpp"
 
 
-void loginInicio(Banco banco, Conta* c)
+void loginInicio(Banco& banco, Conta*& c)
 {
 	int numAux;
 	std::string titAux;
@@ -27,8 +27,10 @@ void loginInicio(Banco banco, Conta* c)
 			std::cout << "\nNumero da nova conta: ";
 			std::cin >> numAux;
 
+			//Usei a mais para poder ler o nome inteiro(com espaco)
 			std::cout << "\nTitular da nova conta: ";
-			std::cin >> titAux;
+			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+			std::getline(std::cin, titAux);
 
 			banco.criarConta(numAux, titAux);
 			c = banco.buscarConta(numAux);
@@ -68,7 +70,7 @@ void loginInicio(Banco banco, Conta* c)
 		paiAcesso(banco, c);
 }
 
-int contaAcessada(Banco banco, Conta* c)
+int contaAcessada(Banco& banco, Conta*& c)
 {
 	double salAux;
 
@@ -146,7 +148,7 @@ int contaAcessada(Banco banco, Conta* c)
 }
 
 //Funcao pai auxiliar para fazer a entrada e volta do inicio por meio do acesso da conta
-void paiAcesso(Banco banco, Conta* c)
+void paiAcesso(Banco& banco, Conta*& c)
 {
 
 	//Se quiser ir repetindo
