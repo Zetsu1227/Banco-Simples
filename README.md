@@ -1,13 +1,19 @@
 # Banco Simples
 Programa de gerenciamento de dados e contas -- POO
+-----------------------------------------------------
+
+### -> Introdução
+
+Projeto desenvolvido em C++ com o objetivo de simular de maneira básica as operações essenciais de um sistema bancário. 
+Ele serve como exercício prático de Programação Orientada a Objetos (POO), manipulação de dados, controle de fluxo e interação com o usuário.
+Nesse programa, o sistema permite que o usuário crie contas, acesse contas existentes, realize operações financeiras, consulte informações e navegue entre menus de forma intuitiva.
+
 
 -----------------------------------------------------
 1) Conta
 
 	+ O usuário é capaz de manipular os valores de sua conta por meio de saques e depósitos.
 	+ Essas ações são guardados no histórico da conta.
-	+ É possível serializar uma conta, isto é, guardar os seus dados em uma string.
-	+ E há o processo inverso, de criar uma conta a partir dessa string. 
 
 	->Informações de uma conta:
 		a) Numero 
@@ -27,6 +33,7 @@ Programa de gerenciamento de dados e contas -- POO
 
 3) Main
 
+	+ Carrega os dados do banco ao iniciar. Salva os dados do banco ao "Sair" do programa.
 	+ Inicialmente, é possível criar uma nova conta ou acessar uma já existente.
     + Depois de criar/acessar, existe algumas opções:
   
